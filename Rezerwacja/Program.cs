@@ -14,9 +14,7 @@ namespace Rezerwacja
             Testy test = new Testy();
             Console.WriteLine(test.calculate(11));
             Console.ReadKey();
-
         }
-
     }
     public class Reservation
     {
@@ -34,8 +32,7 @@ namespace Rezerwacja
     }
 
     public class Testy
-    {
-      
+    {  
         public string calculate(int number)
         {
             string result;
